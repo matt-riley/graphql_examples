@@ -1,0 +1,2 @@
+declare const _default: "\n  type Track {\n    \"The name of the track\"\n    name: String\n    \"The musicbrainz id for the track\"\n    id: ID\n    \"The url for the last.fm page for the track\"\n    url: String\n    \"The date of the track\"\n    date: Date\n    \"The artist for the track\"\n    artist: Artist\n    \"Any images for the track\"\n    images: Images\n  }\n";
+export default _default;
