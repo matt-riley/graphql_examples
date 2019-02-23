@@ -1,5 +1,7 @@
 # GraphQL Examples
 
+[![CircleCI](https://circleci.com/gh/matt-riley/graphql_examples/tree/develop.svg?style=svg)](https://circleci.com/gh/matt-riley/graphql_examples/tree/develop)
+
 Examples created using [gql_boilerplate](https://github.com/matt-riley/gql_boilerplate).
 
 ## JavaScript
