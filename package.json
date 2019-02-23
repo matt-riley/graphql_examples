@@ -1,0 +1,37 @@
+{
+  "name": "graphql_examples",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-riley/graphql_examples.git"
+  },
+  "keywords": [],
+  "author": "Matt Riley <matt@mattriley.me> (https://mattriley.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-riley/graphql_examples/issues"
+  },
+  "homepage": "https://github.com/matt-riley/graphql_examples#readme",
+  "devDependencies": {
+    "commitizen": "3.0.7",
+    "cz-conventional-changelog": "2.1.0",
+    "standard-version": "5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
+  }
+}
