@@ -1,0 +1,9 @@
+isGraphQL: true
+schemaCheck:
+  paths:
+    - path: typescript/last.fm/schema.graphql
+      mainBranch: master
+    - path: js/fortune-api/schema.graphql
+      mainBranch: master
+    - path: js/last.fm/schema.graphql
+      mainBranch: master
