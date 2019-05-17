@@ -7,6 +7,8 @@ schemaCheck:
       mainBranch: master
     - path: js/lastfm/schema.graphql
       mainBranch: master
+    - path: js/fortune-api-jit/schema.graphql
+      mainBranch: master
   rules:
     - FIELD_CHANGED_KIND
     - FIELD_REMOVED
