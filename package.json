@@ -9,7 +9,7 @@
     "test": "run-p test:jsfortune test:jslastfm test:tsLastfm",
     "test:jsfortune": "cd js/fortune-api && npm cit",
     "test:jslastfm": "cd js/lastfm && npm cit",
-    "test:tsLastfm": "cd typescript/lastfm && npm cit"
+    "test:tslastfm": "cd typescript/lastfm && npm cit"
   },
   "repository": {
     "type": "git",
