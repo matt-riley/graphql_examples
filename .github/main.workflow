@@ -1,6 +1,6 @@
 workflow "Run Tests" {
   on = "pull_request"
-  resolves = ["npm cit"]
+  resolves = ["npm ci"]
 }
 
 action "npm ci" {
