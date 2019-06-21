@@ -3,7 +3,7 @@ workflow "Run Tests" {
   resolves = ["npm cit"]
 }
 
-action "npm cit" {
+action "npm ci" {
   uses = "actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680"
-  runs = "npm cit"
+  runs = "npm ci"
 }
