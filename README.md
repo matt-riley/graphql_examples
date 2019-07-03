@@ -1,8 +1,7 @@
 # GraphQL Examples
+[![Maintainability](https://api.codeclimate.com/v1/badges/68c6ee28f8c1134e6ed5/maintainability)](https://codeclimate.com/github/matt-riley/graphql_examples/maintainability) [![codebeat badge](https://codebeat.co/badges/f09df985-cd72-4b9e-9b26-ef52abf14902)](https://codebeat.co/projects/github-com-matt-riley-graphql_examples-develop) [![Total alerts](https://img.shields.io/lgtm/alerts/g/matt-riley/graphql_examples.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/matt-riley/graphql_examples/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/matt-riley/graphql_examples.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/matt-riley/graphql_examples/context:javascript)
 
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=matt-riley/graphql_examples)](https://dependabot.com) [![Maintainability](https://api.codeclimate.com/v1/badges/68c6ee28f8c1134e6ed5/maintainability)](https://codeclimate.com/github/matt-riley/graphql_examples/maintainability)
-
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/matt-riley/graphql_examples.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/matt-riley/graphql_examples/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/matt-riley/graphql_examples.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/matt-riley/graphql_examples/context:javascript)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=matt-riley/graphql_examples)](https://dependabot.com) 
 
 Examples created using [gql_boilerplate](https://github.com/matt-riley/gql_boilerplate).
 
