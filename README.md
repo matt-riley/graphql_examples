@@ -1,6 +1,6 @@
 # GraphQL Examples
 
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=matt-riley/graphql_examples)](https://dependabot.com)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=matt-riley/graphql_examples)](https://dependabot.com) [![Maintainability](https://api.codeclimate.com/v1/badges/68c6ee28f8c1134e6ed5/maintainability)](https://codeclimate.com/github/matt-riley/graphql_examples/maintainability)
 
 Examples created using [gql_boilerplate](https://github.com/matt-riley/gql_boilerplate).
 
