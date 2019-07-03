@@ -1,5 +1,3 @@
-import { ILastFMUserLovedtrackTrack } from '../../interfaces/ILastFMUserLovedTracks';
-
 export default {
   Track: {
     id({ mbid }: { mbid: string }) {
