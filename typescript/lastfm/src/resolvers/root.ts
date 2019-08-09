@@ -1,4 +1,3 @@
-import { Context, ContextFunction } from 'apollo-server-core';
 import { GraphQLRequestContext } from 'apollo-server-plugin-base';
 
 export default {

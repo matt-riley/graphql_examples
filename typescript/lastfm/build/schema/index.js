@@ -1,5 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _apolloServerExpress=require("apollo-server-express"),_lastfm=_interopRequireDefault(require("./lastfm")),_root=_interopRequireDefault(require("./root"));function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}const schema=_apolloServerExpress.gql`
-  ${_root.default}
-  ${_lastfm.default}
-`;var _default=schema;exports.default=_default;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9zY2hlbWEvaW5kZXgudHMiXSwibmFtZXMiOlsic2NoZW1hIiwiZ3FsIiwiUm9vdFF1ZXJ5IiwiTGFzdEZNIl0sIm1hcHBpbmdzIjoiaVVBTUEsS0FBTUEsQ0FBQUEsTUFBb0IsQ0FBR0Msd0JBQUk7SUFDN0JDLGFBQVU7SUFDVkMsZUFBTztDQUZYLEMsYUFLZUgsTSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGdxbCB9IGZyb20gJ2Fwb2xsby1zZXJ2ZXItZXhwcmVzcyc7XG5pbXBvcnQgeyBEb2N1bWVudE5vZGUgfSBmcm9tICdncmFwaHFsJztcblxuaW1wb3J0IExhc3RGTSBmcm9tICcuL2xhc3RmbSc7XG5pbXBvcnQgUm9vdFF1ZXJ5IGZyb20gJy4vcm9vdCc7XG5cbmNvbnN0IHNjaGVtYTogRG9jdW1lbnROb2RlID0gZ3FsYFxuICAke1Jvb3RRdWVyeX1cbiAgJHtMYXN0Rk19XG5gO1xuXG5leHBvcnQgZGVmYXVsdCBzY2hlbWE7XG4iXX0=

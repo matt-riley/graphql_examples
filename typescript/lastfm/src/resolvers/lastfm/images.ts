@@ -2,7 +2,7 @@ import { ILastFMImage } from '../../interfaces/ILastFMUserInfo';
 
 function getImage(pv: ILastFMImage[], size: string): string {
   const image: ILastFMImage | undefined = pv.find((img) => img.size === size);
-  if (typeof image !== undefined) { return image!['#text']; }
+  if (typeof image !== 'undefined') { return image!['#text']; }
   return '';
 }
 
