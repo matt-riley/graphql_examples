@@ -1,0 +1,23 @@
+on: pull_request
+name: Run Tests
+jobs:
+  runTests:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: JS Fortune Tests
+      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+      with:
+        entrypoint: npm
+        args: run test:jsfortune
+    - name: JS Lastfm Tests
+      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+      with:
+        entrypoint: npm
+        args: run test:jslastfm
+    - name: TS Lastfm Tests
+      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
+      with:
+        entrypoint: npm
+        args: run test:tslastfm
