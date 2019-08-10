@@ -1,3 +1,6 @@
+"""
+A lesson in simplified Chinese. Gives the user a common word or phrase in English, the Chinese alphabet, and a pronunciation. After a gluttonous meal, there’s no better thank you than butchering the language of the restaurant staff while crunching down two or three cookies.
+"""
 type Lesson {
   "ID of the lesson"
   id: ID

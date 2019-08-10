@@ -6,7 +6,9 @@ pre-commit:
       glob: "*.{js,ts}"
       run: npx eslint {files}
 pre-push:
-  parallel: true
+  parallel: false
   commands:
     build:
       run: npm run build
+    commit:
+      run: git commit --amend --no-edit

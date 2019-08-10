@@ -11,6 +11,12 @@ type Fortune {
   message: String
 }
 
+"""
+A lesson in simplified Chinese. Gives the user a common word or phrase in
+English, the Chinese alphabet, and a pronunciation. After a gluttonous meal,
+there’s no better thank you than butchering the language of the restaurant staff
+while crunching down two or three cookies.
+"""
 type Lesson {
   """ID of the lesson"""
   id: ID
@@ -25,6 +31,11 @@ type Lesson {
   english: String
 }
 
+"""
+Lotto numbers are 6 numbers ranging from 0 to 59, coninciding with US Powerball
+numbers. No one has ever won the Powerball using the numbers from a fortune
+cookie, but fortune-makers still need something to fill in the extra white-space.
+"""
 type Lotto {
   """ID of the lotto numbers"""
   id: ID
@@ -33,6 +44,7 @@ type Lotto {
   numbers: [Int]
 }
 
+"""The root query"""
 type Query {
   """
   Returns a list of `fortune`s.
