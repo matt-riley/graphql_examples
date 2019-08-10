@@ -1,3 +1,6 @@
+"""
+Lotto numbers are 6 numbers ranging from 0 to 59, coninciding with US Powerball numbers. No one has ever won the Powerball using the numbers from a fortune cookie, but fortune-makers still need something to fill in the extra white-space.
+"""
 type Lotto {
   "ID of the lotto numbers"
   id: ID
