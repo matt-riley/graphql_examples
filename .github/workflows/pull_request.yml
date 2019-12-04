@@ -4,20 +4,20 @@ jobs:
   runTests:
     name: Run Tests
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      max-parallel: 2
+      matrix:
+        node_version: [8, 10, 11, 12, 13]
     steps:
     - uses: actions/checkout@master
+    - name: Setup Node ${{ matrix.node_version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node_version }}
     - name: JS Fortune Tests
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      with:
-        entrypoint: npm
-        args: run test:jsfortune
+      run: npm run test:jsfortune
     - name: JS Lastfm Tests
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      with:
-        entrypoint: npm
-        args: run test:jslastfm
+      run: npm run test:jslastfm
     - name: TS Lastfm Tests
-      uses: actions/npm@59b64a598378f31e49cb76f27d6f3312b582f680
-      with:
-        entrypoint: npm
-        args: run test:tslastfm
+      run: npm run test:tslastfm
