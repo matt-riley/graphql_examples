@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/matt-riley/graphql_examples#readme",
   "devDependencies": {
-    "@arkweid/lefthook": "0.6.6",
+    "@arkweid/lefthook": "0.6.7",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "6.7.2",
