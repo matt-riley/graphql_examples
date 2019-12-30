@@ -22,7 +22,7 @@
     "apollo-datasource-rest": "0.6.11",
     "apollo-server-core": "2.9.14",
     "apollo-server-express": "2.9.14",
-    "apollo-server-plugin-base": "0.6.9",
+    "apollo-server-plugin-base": "0.6.10",
     "dotenv": "8.2.0",
     "express": "4.17.1",
     "graphql": "14.5.8"
