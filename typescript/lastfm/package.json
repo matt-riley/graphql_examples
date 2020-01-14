@@ -31,7 +31,7 @@
     "@babel/cli": "7.8.0",
     "@babel/core": "7.8.3",
     "@babel/node": "7.8.0",
-    "@babel/plugin-proposal-class-properties": "7.8.0",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
     "@babel/preset-env": "7.8.3",
     "@babel/preset-typescript": "7.8.3",
     "@types/dotenv": "8.2.0",
