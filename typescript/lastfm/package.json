@@ -43,7 +43,7 @@
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-mocha": "6.3.0",
     "jest": "^25.3.0",
-    "nodemon": "2.0.2",
+    "nodemon": "2.0.3",
     "tslint": "6.1.1",
     "typescript": "3.8.3"
   },
