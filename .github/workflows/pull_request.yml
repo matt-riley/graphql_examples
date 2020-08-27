@@ -21,3 +21,14 @@ jobs:
       run: npm run test:jslastfm
     - name: TS Lastfm Tests
       run: npm run test:tslastfm
+  automerge:
+    runs-on: ubuntu-latest
+    needs: runTests
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - name: automerge
+        uses: pascalgn/automerge-action@v0.9.0
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          MERGE_METHOD: "rebase"
+          MERGE_LABELS: "dependencies"
