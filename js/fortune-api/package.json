@@ -13,7 +13,7 @@
     "lint:fix": "eslint \"src/**/*.js\" --fix"
   },
   "dependencies": {
-    "apollo-datasource-rest": "0.9.3",
+    "apollo-datasource-rest": "0.9.6",
     "apollo-server-express": "2.19.1",
     "express": "4.17.1",
     "graphql": "14.7.0"
@@ -30,7 +30,7 @@
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.1",
     "jest": "^26.4.2",
-    "nodemon": "2.0.4"
+    "nodemon": "2.0.6"
   },
   "jest": {
     "collectCoverage": true,
