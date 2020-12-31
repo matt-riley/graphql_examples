@@ -5,7 +5,6 @@ import Lesson from './lesson.graphql';
 import Lotto from './lotto.graphql';
 import RootQuery from './root.graphql';
 
-
 const schema = gql`
   ${RootQuery}
   ${Fortune}
