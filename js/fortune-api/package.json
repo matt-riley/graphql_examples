@@ -13,7 +13,7 @@
     "lint:fix": "eslint \"src/**/*.js\" --fix"
   },
   "dependencies": {
-    "apollo-datasource-rest": "0.9.6",
+    "apollo-datasource-rest": "0.9.7",
     "apollo-server-express": "2.19.1",
     "express": "4.17.1",
     "graphql": "14.7.0"
