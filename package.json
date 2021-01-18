@@ -28,7 +28,7 @@
   "homepage": "https://github.com/matt-riley/graphql_examples#readme",
   "devDependencies": {
     "@arkweid/lefthook": "0.7.2",
-    "commitizen": "4.2.2",
+    "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.18.0",
     "eslint-config-airbnb-base": "14.2.1",
