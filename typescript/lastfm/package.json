@@ -28,7 +28,7 @@
     "graphql": "14.7.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.10",
+    "@babel/cli": "7.12.13",
     "@babel/core": "7.12.10",
     "@babel/node": "7.12.13",
     "@babel/plugin-proposal-class-properties": "7.12.13",
