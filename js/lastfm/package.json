@@ -20,7 +20,7 @@
     "graphql": "15.5.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.12.16",
+    "@babel/cli": "7.12.17",
     "@babel/core": "7.12.16",
     "@babel/node": "7.12.17",
     "@babel/preset-env": "7.12.16",
