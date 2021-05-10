@@ -38,7 +38,7 @@
     "@types/graphql": "14.5.0",
     "babel-plugin-transform-builtin-extend": "1.1.2",
     "babel-preset-minify": "0.5.1",
-    "eslint": "7.21.0",
+    "eslint": "7.26.0",
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-mocha": "8.1.0",
