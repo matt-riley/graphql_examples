@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "apollo-datasource-rest": "0.10.0",
-    "apollo-server-core": "2.21.0",
+    "apollo-server-core": "2.25.0",
     "apollo-server-express": "2.21.0",
     "apollo-server-plugin-base": "0.10.4",
     "dotenv": "8.2.0",
