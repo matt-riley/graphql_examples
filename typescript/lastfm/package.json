@@ -19,7 +19,7 @@
     "update-schema": "NODE_ENV=local babel-node --extensions '.ts' scripts/build_schema"
   },
   "dependencies": {
-    "apollo-datasource-rest": "3.4.0",
+    "apollo-datasource-rest": "3.5.2",
     "apollo-server-core": "3.5.0",
     "apollo-server-express": "3.5.0",
     "apollo-server-plugin-base": "3.4.0",
