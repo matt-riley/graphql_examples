@@ -19,5 +19,3 @@ jobs:
       run: npm run test:jsfortune
     - name: JS Lastfm Tests
       run: npm run test:jslastfm
-    - name: TS Lastfm Tests
-      run: npm run test:tslastfm
